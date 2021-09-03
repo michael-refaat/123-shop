@@ -1,0 +1,59 @@
+body,h1,h2,h3,h3,h4,h5,h6,h6,.w3-sidebar,.w3-wide {font-family: 'Roboto', sans-serif;}
+
+.button {
+    opacity: 0;
+}
+
+.container:hover .productimage {
+    opacity: 0.3;
+}
+
+.container:hover .button {
+    opacity: 1;
+}
+
+.con-tainer .product-image {
+    opacity: 0.3;
+}
+
+.con-tainer:hover .but-ton {
+    opacity: 1;
+}
+
+.tt {
+    position: relative;
+    display: inline-block;
+}
+
+.tt .ttt {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tt .ttt::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tt:hover .ttt {
+    visibility: visible;
+    opacity: 1;
+}
