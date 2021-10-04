@@ -1,6 +1,6 @@
 <h1>123-shop</h1>
 
-CRUD shopping cart developed using Laravel framework
+CRUD shopping cart developed using Laravel framework and Laravel Breeze
 
 ## Steps to work
 
