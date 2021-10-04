@@ -1,5 +1,7 @@
 <h1>123-shop</h1>
 
+CRUD shopping cart developed using Laravel framework
+
 ## Steps to work
 
 1-&nbsp;  composer install
